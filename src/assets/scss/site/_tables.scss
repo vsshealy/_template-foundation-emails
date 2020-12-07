@@ -1,0 +1,26 @@
+/**
+ * site/tables.scss
+ * This file contains global table styles.
+**/
+
+table {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    tbody {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        tr {
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+
+            th, td {
+                box-sizing: border-box;
+                
+                @media #{$media-mobile} {} // MOBILE
+                @media #{$media-desktop} {} // DESKTOP
+            } //TD
+        } //TR
+    } //TBODY
+} //TABLE

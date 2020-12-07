@@ -1,0 +1,9 @@
+/**
+ * variables/media/devices.scss
+ * This file defines media queries for specific devices.
+**/
+
+// DEVICES
+    $device-phone: "(max-width: 596px)";
+    $device-tablet: "(min-width: 597px) and (max-width: 1023px)";
+    $device-desktop: "(min-width: 1024px)";

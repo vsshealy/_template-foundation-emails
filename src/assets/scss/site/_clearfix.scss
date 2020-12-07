@@ -1,0 +1,27 @@
+/**
+ * site/clearfix.scss
+ * This file contains global site layout and clearfix styles.
+**/
+
+.clear {
+    clear: both;
+    
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //.CLEAR
+
+.clearfix {
+    zoom: 1;
+
+    &:before, &:after {
+        content: "";
+        display: table;
+    } //:BEFORE, :AFTER
+
+    &:after {
+        clear: both;
+    } //:AFTER
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //.CLEARFIX

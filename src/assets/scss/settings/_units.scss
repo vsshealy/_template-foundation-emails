@@ -1,0 +1,30 @@
+/**
+ * settings/units.scss
+ * This file defines the settings for all size units, margins, and paddings.
+**/
+
+// BASE UNIT
+    $base-unit: 16px;
+
+// SITE WIDTH SETTINGS
+    $site-wdith: 580px;
+    $site-width-breakpoint: ($site-width - 1px);
+    $site-width-mobile: 100.00%;
+    $site-width-desktop: $site-width;
+
+// WRAPPER-INNER GUTTERS
+    $site-width-gutter: $base-unit;
+    $site-width-gutter-mobile: $site-width-gutter;
+    $site-width-gutter-desktop: $site-width-gutter;
+
+// MARGINS
+    $margin-base: $base-unit;
+
+// PADDINGS
+    $padding-base: $base-unit;
+
+// @IMPORT | VARIABLES
+    @import "../variables/media/base";
+    @import "../variables/units/grids";
+    @import "../variables/units/margins";
+    @import "../variables/units/paddings";

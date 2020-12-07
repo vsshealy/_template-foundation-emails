@@ -1,0 +1,17 @@
+/**
+ * settings/layouts.scss
+ * This file defines all layout template settings.
+**/
+
+// LAYOUT-DEFAULT
+    $layout-default-background-color: $color-grayscale-light-10;
+    $layout-default-content-color: $color-grayscale-light-12;
+    $layout-default-content-shadow: 0px 0px 12px rgba($color-grayscale-dark-3, 0.10);
+    $layout-default-text-heading: $font-serif;
+    $layout-default-text-heading-color: $heading-text-color;
+    $layout-default-text-body: $font-sans;
+    $layout-default-text-body-color: $body-text-color;
+    $layout-default-link-color: $link-color;
+    $layout-default-link-hover-color: $link-hover-color;
+    $layout-default-link-alt-color: $link-alt-color;
+    $layout-default-link-alt-hover-color: $link-alt-hover-color;

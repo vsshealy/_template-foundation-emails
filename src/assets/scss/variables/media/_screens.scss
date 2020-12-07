@@ -1,0 +1,9 @@
+/**
+ * variables/media/screen.scss
+ * This file defines media queries for specific screen sizes.
+**/
+
+// SCREENS
+    $screen-small: "(min-width: 0px;)";
+    $screen-medium: "(min-width: 640px)";
+    $screen-large: "(min-width: 1024px)";

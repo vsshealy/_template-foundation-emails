@@ -1,0 +1,14 @@
+/**
+ * site/wrappers.scss
+ * This file contains email wrapper settings and styles.
+**/
+
+.wrapper {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    .wrapper-inner {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.WRAPPER-INNER
+} //.WRAPPER

@@ -1,0 +1,33 @@
+/**
+ * settings/links.scss
+ * This file defines all link settings.
+**/
+
+// LINKS
+    $link-color: $color-primary1;
+    $link-hover-color: $color-primary1-dark-2;
+
+    // LINK-ALT
+        $link-alt-color: $color-primary2;
+        $link-hover-color: $color-primary2-dark-2;
+
+// BUTTONS
+    $button-text: $body-text;
+    $button-margin: $margin-sm $margin-xxs;
+    $button-padding: $padding-xxs $padding-sm;
+
+// BUTTON-SOLID
+    $button-solid-color: $link-color;
+    $button-solid-hover-color: $link-hover-color;
+
+    // BUTTON-SOLID-ALT
+        $button-solid-alt-color: $link-alt-color;
+        $button-solid-alt-hover-color: $link-alt-hover-color;
+
+    // BUTTON-GHOST
+        $button-ghost-color: transparent;
+        $button-ghost-hover-color: $link-color;
+
+    // BUTTON-GHOST-ALT
+        $button-ghost-alt-color: transparent;
+        $button-ghost-alt-hover-color: $link-alt-color;

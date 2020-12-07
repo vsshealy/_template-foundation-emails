@@ -1,0 +1,14 @@
+/**
+ * variables/units/paddings.scss
+ * This file provides calculated paddings for general use.
+**/
+
+// PADDINGS
+    $padding-none: $padding-base * 0.00;
+    $padding-xxs: $padding-base * 0.25;
+    $padding-xs: $padding-base * 0.50;
+    $padding-sm: $padding-base * 1.00;
+    $padding-md: $padding-base * 1.50;
+    $padding-lg: $padding-base * 2.00;
+    $padding-xl: $padding-base * 2.50;
+    $padding-xxl: $padding-base * 3.00;

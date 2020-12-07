@@ -1,0 +1,14 @@
+/**
+ * variables/units/margins.scss
+ * This file provides calculated margins for general use.
+**/
+
+// MARGINS
+    $margin-none: $margin-base * 0.00;
+    $margin-xxs: $margin-base * 0.25;
+    $margin-xs: $margin-base * 0.50;
+    $margin-sm: $margin-base * 1.00;
+    $margin-md: $margin-base * 1.50;
+    $margin-lg: $margin-base * 2.00;
+    $margin-xl: $margin-base * 2.50;
+    $margin-xxl: $margin-base * 3.00;

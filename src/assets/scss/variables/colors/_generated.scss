@@ -1,0 +1,236 @@
+/**
+ * variables/colors/base.scss
+ * This file imports all global project color files.
+**/
+
+// COLOR-PRIMARY1
+    // -LIGHT
+        $color-primary1-light-12: mix($color-light, $color-primary1, $color-adjustment * 12);
+        $color-primary1-light-11: mix($color-light, $color-primary1, $color-adjustment * 11);
+        $color-primary1-light-10: mix($color-light, $color-primary1, $color-adjustment * 10);
+        $color-primary1-light-9: mix($color-light, $color-primary1, $color-adjustment * 9);
+        $color-primary1-light-8: mix($color-light, $color-primary1, $color-adjustment * 8);
+        $color-primary1-light-7: mix($color-light, $color-primary1, $color-adjustment * 7);
+        $color-primary1-light-6: mix($color-light, $color-primary1, $color-adjustment * 6);
+        $color-primary1-light-5: mix($color-light, $color-primary1, $color-adjustment * 5);
+        $color-primary1-light-4: mix($color-light, $color-primary1, $color-adjustment * 4);
+        $color-primary1-light-3: mix($color-light, $color-primary1, $color-adjustment * 3);
+        $color-primary1-light-2: mix($color-light, $color-primary1, $color-adjustment * 2);
+        $color-primary1-light-1: mix($color-light, $color-primary1, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary1-dark-1: mix($color-dark, $color-primary1, $color-adjustment * 1);
+        $color-primary1-dark-2: mix($color-dark, $color-primary1, $color-adjustment * 2);
+        $color-primary1-dark-3: mix($color-dark, $color-primary1, $color-adjustment * 3);
+        $color-primary1-dark-4: mix($color-dark, $color-primary1, $color-adjustment * 4);
+        $color-primary1-dark-5: mix($color-dark, $color-primary1, $color-adjustment * 5);
+        $color-primary1-dark-6: mix($color-dark, $color-primary1, $color-adjustment * 6);
+        $color-primary1-dark-7: mix($color-dark, $color-primary1, $color-adjustment * 7);
+        $color-primary1-dark-8: mix($color-dark, $color-primary1, $color-adjustment * 8);
+        $color-primary1-dark-9: mix($color-dark, $color-primary1, $color-adjustment * 9);
+        $color-primary1-dark-10: mix($color-dark, $color-primary1, $color-adjustment * 10);
+        $color-primary1-dark-11: mix($color-dark, $color-primary1, $color-adjustment * 11);
+        $color-primary1-dark-12: mix($color-dark, $color-primary1, $color-adjustment * 12);
+
+// COLOR-PRIMARY2
+    // -LIGHT
+        $color-primary2-light-12: mix($color-light, $color-primary2, $color-adjustment * 12);
+        $color-primary2-light-11: mix($color-light, $color-primary2, $color-adjustment * 11);
+        $color-primary2-light-10: mix($color-light, $color-primary2, $color-adjustment * 10);
+        $color-primary2-light-9: mix($color-light, $color-primary2, $color-adjustment * 9);
+        $color-primary2-light-8: mix($color-light, $color-primary2, $color-adjustment * 8);
+        $color-primary2-light-7: mix($color-light, $color-primary2, $color-adjustment * 7);
+        $color-primary2-light-6: mix($color-light, $color-primary2, $color-adjustment * 6);
+        $color-primary2-light-5: mix($color-light, $color-primary2, $color-adjustment * 5);
+        $color-primary2-light-4: mix($color-light, $color-primary2, $color-adjustment * 4);
+        $color-primary2-light-3: mix($color-light, $color-primary2, $color-adjustment * 3);
+        $color-primary2-light-2: mix($color-light, $color-primary2, $color-adjustment * 2);
+        $color-primary2-light-1: mix($color-light, $color-primary2, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary2-dark-1: mix($color-dark, $color-primary2, $color-adjustment * 1);
+        $color-primary2-dark-2: mix($color-dark, $color-primary2, $color-adjustment * 2);
+        $color-primary2-dark-3: mix($color-dark, $color-primary2, $color-adjustment * 3);
+        $color-primary2-dark-4: mix($color-dark, $color-primary2, $color-adjustment * 4);
+        $color-primary2-dark-5: mix($color-dark, $color-primary2, $color-adjustment * 5);
+        $color-primary2-dark-6: mix($color-dark, $color-primary2, $color-adjustment * 6);
+        $color-primary2-dark-7: mix($color-dark, $color-primary2, $color-adjustment * 7);
+        $color-primary2-dark-8: mix($color-dark, $color-primary2, $color-adjustment * 8);
+        $color-primary2-dark-9: mix($color-dark, $color-primary2, $color-adjustment * 9);
+        $color-primary2-dark-10: mix($color-dark, $color-primary2, $color-adjustment * 10);
+        $color-primary2-dark-11: mix($color-dark, $color-primary2, $color-adjustment * 11);
+        $color-primary2-dark-12: mix($color-dark, $color-primary2, $color-adjustment * 12);
+
+// COLOR-PRIMARY3
+    // -LIGHT
+        $color-primary3-light-12: mix($color-light, $color-primary3, $color-adjustment * 12);
+        $color-primary3-light-11: mix($color-light, $color-primary3, $color-adjustment * 11);
+        $color-primary3-light-10: mix($color-light, $color-primary3, $color-adjustment * 10);
+        $color-primary3-light-9: mix($color-light, $color-primary3, $color-adjustment * 9);
+        $color-primary3-light-8: mix($color-light, $color-primary3, $color-adjustment * 8);
+        $color-primary3-light-7: mix($color-light, $color-primary3, $color-adjustment * 7);
+        $color-primary3-light-6: mix($color-light, $color-primary3, $color-adjustment * 6);
+        $color-primary3-light-5: mix($color-light, $color-primary3, $color-adjustment * 5);
+        $color-primary3-light-4: mix($color-light, $color-primary3, $color-adjustment * 4);
+        $color-primary3-light-3: mix($color-light, $color-primary3, $color-adjustment * 3);
+        $color-primary3-light-2: mix($color-light, $color-primary3, $color-adjustment * 2);
+        $color-primary3-light-1: mix($color-light, $color-primary3, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary3-dark-1: mix($color-dark, $color-primary3, $color-adjustment * 1);
+        $color-primary3-dark-2: mix($color-dark, $color-primary3, $color-adjustment * 2);
+        $color-primary3-dark-3: mix($color-dark, $color-primary3, $color-adjustment * 3);
+        $color-primary3-dark-4: mix($color-dark, $color-primary3, $color-adjustment * 4);
+        $color-primary3-dark-5: mix($color-dark, $color-primary3, $color-adjustment * 5);
+        $color-primary3-dark-6: mix($color-dark, $color-primary3, $color-adjustment * 6);
+        $color-primary3-dark-7: mix($color-dark, $color-primary3, $color-adjustment * 7);
+        $color-primary3-dark-8: mix($color-dark, $color-primary3, $color-adjustment * 8);
+        $color-primary3-dark-9: mix($color-dark, $color-primary3, $color-adjustment * 9);
+        $color-primary3-dark-10: mix($color-dark, $color-primary3, $color-adjustment * 10);
+        $color-primary3-dark-11: mix($color-dark, $color-primary3, $color-adjustment * 11);
+        $color-primary3-dark-12: mix($color-dark, $color-primary3, $color-adjustment * 12);
+
+// COLOR-PRIMARY4
+    // -LIGHT
+        $color-primary4-light-12: mix($color-light, $color-primary4, $color-adjustment * 12);
+        $color-primary4-light-11: mix($color-light, $color-primary4, $color-adjustment * 11);
+        $color-primary4-light-10: mix($color-light, $color-primary4, $color-adjustment * 10);
+        $color-primary4-light-9: mix($color-light, $color-primary4, $color-adjustment * 9);
+        $color-primary4-light-8: mix($color-light, $color-primary4, $color-adjustment * 8);
+        $color-primary4-light-7: mix($color-light, $color-primary4, $color-adjustment * 7);
+        $color-primary4-light-6: mix($color-light, $color-primary4, $color-adjustment * 6);
+        $color-primary4-light-5: mix($color-light, $color-primary4, $color-adjustment * 5);
+        $color-primary4-light-4: mix($color-light, $color-primary4, $color-adjustment * 4);
+        $color-primary4-light-3: mix($color-light, $color-primary4, $color-adjustment * 3);
+        $color-primary4-light-2: mix($color-light, $color-primary4, $color-adjustment * 2);
+        $color-primary4-light-1: mix($color-light, $color-primary4, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary4-dark-1: mix($color-dark, $color-primary4, $color-adjustment * 1);
+        $color-primary4-dark-2: mix($color-dark, $color-primary4, $color-adjustment * 2);
+        $color-primary4-dark-3: mix($color-dark, $color-primary4, $color-adjustment * 3);
+        $color-primary4-dark-4: mix($color-dark, $color-primary4, $color-adjustment * 4);
+        $color-primary4-dark-5: mix($color-dark, $color-primary4, $color-adjustment * 5);
+        $color-primary4-dark-6: mix($color-dark, $color-primary4, $color-adjustment * 6);
+        $color-primary4-dark-7: mix($color-dark, $color-primary4, $color-adjustment * 7);
+        $color-primary4-dark-8: mix($color-dark, $color-primary4, $color-adjustment * 8);
+        $color-primary4-dark-9: mix($color-dark, $color-primary4, $color-adjustment * 9);
+        $color-primary4-dark-10: mix($color-dark, $color-primary4, $color-adjustment * 10);
+        $color-primary4-dark-11: mix($color-dark, $color-primary4, $color-adjustment * 11);
+        $color-primary4-dark-12: mix($color-dark, $color-primary4, $color-adjustment * 12);
+
+// COLOR-PRIMARY5
+    // -LIGHT
+        $color-primary5-light-12: mix($color-light, $color-primary5, $color-adjustment * 12);
+        $color-primary5-light-11: mix($color-light, $color-primary5, $color-adjustment * 11);
+        $color-primary5-light-10: mix($color-light, $color-primary5, $color-adjustment * 10);
+        $color-primary5-light-9: mix($color-light, $color-primary5, $color-adjustment * 9);
+        $color-primary5-light-8: mix($color-light, $color-primary5, $color-adjustment * 8);
+        $color-primary5-light-7: mix($color-light, $color-primary5, $color-adjustment * 7);
+        $color-primary5-light-6: mix($color-light, $color-primary5, $color-adjustment * 6);
+        $color-primary5-light-5: mix($color-light, $color-primary5, $color-adjustment * 5);
+        $color-primary5-light-4: mix($color-light, $color-primary5, $color-adjustment * 4);
+        $color-primary5-light-3: mix($color-light, $color-primary5, $color-adjustment * 3);
+        $color-primary5-light-2: mix($color-light, $color-primary5, $color-adjustment * 2);
+        $color-primary5-light-1: mix($color-light, $color-primary5, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary5-dark-1: mix($color-dark, $color-primary5, $color-adjustment * 1);
+        $color-primary5-dark-2: mix($color-dark, $color-primary5, $color-adjustment * 2);
+        $color-primary5-dark-3: mix($color-dark, $color-primary5, $color-adjustment * 3);
+        $color-primary5-dark-4: mix($color-dark, $color-primary5, $color-adjustment * 4);
+        $color-primary5-dark-5: mix($color-dark, $color-primary5, $color-adjustment * 5);
+        $color-primary5-dark-6: mix($color-dark, $color-primary5, $color-adjustment * 6);
+        $color-primary5-dark-7: mix($color-dark, $color-primary5, $color-adjustment * 7);
+        $color-primary5-dark-8: mix($color-dark, $color-primary5, $color-adjustment * 8);
+        $color-primary5-dark-9: mix($color-dark, $color-primary5, $color-adjustment * 9);
+        $color-primary5-dark-10: mix($color-dark, $color-primary5, $color-adjustment * 10);
+        $color-primary5-dark-11: mix($color-dark, $color-primary5, $color-adjustment * 11);
+        $color-primary5-dark-12: mix($color-dark, $color-primary5, $color-adjustment * 12);
+
+// COLOR-PRIMARY6
+    // -LIGHT
+        $color-primary6-light-12: mix($color-light, $color-primary6, $color-adjustment * 12);
+        $color-primary6-light-11: mix($color-light, $color-primary6, $color-adjustment * 11);
+        $color-primary6-light-10: mix($color-light, $color-primary6, $color-adjustment * 10);
+        $color-primary6-light-9: mix($color-light, $color-primary6, $color-adjustment * 9);
+        $color-primary6-light-8: mix($color-light, $color-primary6, $color-adjustment * 8);
+        $color-primary6-light-7: mix($color-light, $color-primary6, $color-adjustment * 7);
+        $color-primary6-light-6: mix($color-light, $color-primary6, $color-adjustment * 6);
+        $color-primary6-light-5: mix($color-light, $color-primary6, $color-adjustment * 5);
+        $color-primary6-light-4: mix($color-light, $color-primary6, $color-adjustment * 4);
+        $color-primary6-light-3: mix($color-light, $color-primary6, $color-adjustment * 3);
+        $color-primary6-light-2: mix($color-light, $color-primary6, $color-adjustment * 2);
+        $color-primary6-light-1: mix($color-light, $color-primary6, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary6-dark-1: mix($color-dark, $color-primary6, $color-adjustment * 1);
+        $color-primary6-dark-2: mix($color-dark, $color-primary6, $color-adjustment * 2);
+        $color-primary6-dark-3: mix($color-dark, $color-primary6, $color-adjustment * 3);
+        $color-primary6-dark-4: mix($color-dark, $color-primary6, $color-adjustment * 4);
+        $color-primary6-dark-5: mix($color-dark, $color-primary6, $color-adjustment * 5);
+        $color-primary6-dark-6: mix($color-dark, $color-primary6, $color-adjustment * 6);
+        $color-primary6-dark-7: mix($color-dark, $color-primary6, $color-adjustment * 7);
+        $color-primary6-dark-8: mix($color-dark, $color-primary6, $color-adjustment * 8);
+        $color-primary6-dark-9: mix($color-dark, $color-primary6, $color-adjustment * 9);
+        $color-primary6-dark-10: mix($color-dark, $color-primary6, $color-adjustment * 10);
+        $color-primary6-dark-11: mix($color-dark, $color-primary6, $color-adjustment * 11);
+        $color-primary6-dark-12: mix($color-dark, $color-primary6, $color-adjustment * 12);
+
+// COLOR-PRIMARY7
+    // -LIGHT
+        $color-primary7-light-12: mix($color-light, $color-primary7, $color-adjustment * 12);
+        $color-primary7-light-11: mix($color-light, $color-primary7, $color-adjustment * 11);
+        $color-primary7-light-10: mix($color-light, $color-primary7, $color-adjustment * 10);
+        $color-primary7-light-9: mix($color-light, $color-primary7, $color-adjustment * 9);
+        $color-primary7-light-8: mix($color-light, $color-primary7, $color-adjustment * 8);
+        $color-primary7-light-7: mix($color-light, $color-primary7, $color-adjustment * 7);
+        $color-primary7-light-6: mix($color-light, $color-primary7, $color-adjustment * 6);
+        $color-primary7-light-5: mix($color-light, $color-primary7, $color-adjustment * 5);
+        $color-primary7-light-4: mix($color-light, $color-primary7, $color-adjustment * 4);
+        $color-primary7-light-3: mix($color-light, $color-primary7, $color-adjustment * 3);
+        $color-primary7-light-2: mix($color-light, $color-primary7, $color-adjustment * 2);
+        $color-primary7-light-1: mix($color-light, $color-primary7, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary7-dark-1: mix($color-dark, $color-primary7, $color-adjustment * 1);
+        $color-primary7-dark-2: mix($color-dark, $color-primary7, $color-adjustment * 2);
+        $color-primary7-dark-3: mix($color-dark, $color-primary7, $color-adjustment * 3);
+        $color-primary7-dark-4: mix($color-dark, $color-primary7, $color-adjustment * 4);
+        $color-primary7-dark-5: mix($color-dark, $color-primary7, $color-adjustment * 5);
+        $color-primary7-dark-6: mix($color-dark, $color-primary7, $color-adjustment * 6);
+        $color-primary7-dark-7: mix($color-dark, $color-primary7, $color-adjustment * 7);
+        $color-primary7-dark-8: mix($color-dark, $color-primary7, $color-adjustment * 8);
+        $color-primary7-dark-9: mix($color-dark, $color-primary7, $color-adjustment * 9);
+        $color-primary7-dark-10: mix($color-dark, $color-primary7, $color-adjustment * 10);
+        $color-primary7-dark-11: mix($color-dark, $color-primary7, $color-adjustment * 11);
+        $color-primary7-dark-12: mix($color-dark, $color-primary7, $color-adjustment * 12);
+
+// COLOR-PRIMARY8
+    // -LIGHT
+        $color-primary8-light-12: mix($color-light, $color-primary8, $color-adjustment * 12);
+        $color-primary8-light-11: mix($color-light, $color-primary8, $color-adjustment * 11);
+        $color-primary8-light-10: mix($color-light, $color-primary8, $color-adjustment * 10);
+        $color-primary8-light-9: mix($color-light, $color-primary8, $color-adjustment * 9);
+        $color-primary8-light-8: mix($color-light, $color-primary8, $color-adjustment * 8);
+        $color-primary8-light-7: mix($color-light, $color-primary8, $color-adjustment * 7);
+        $color-primary8-light-6: mix($color-light, $color-primary8, $color-adjustment * 6);
+        $color-primary8-light-5: mix($color-light, $color-primary8, $color-adjustment * 5);
+        $color-primary8-light-4: mix($color-light, $color-primary8, $color-adjustment * 4);
+        $color-primary8-light-3: mix($color-light, $color-primary8, $color-adjustment * 3);
+        $color-primary8-light-2: mix($color-light, $color-primary8, $color-adjustment * 2);
+        $color-primary8-light-1: mix($color-light, $color-primary8, $color-adjustment * 1);
+
+    // -DARK
+        $color-primary8-dark-1: mix($color-dark, $color-primary8, $color-adjustment * 1);
+        $color-primary8-dark-2: mix($color-dark, $color-primary8, $color-adjustment * 2);
+        $color-primary8-dark-3: mix($color-dark, $color-primary8, $color-adjustment * 3);
+        $color-primary8-dark-4: mix($color-dark, $color-primary8, $color-adjustment * 4);
+        $color-primary8-dark-5: mix($color-dark, $color-primary8, $color-adjustment * 5);
+        $color-primary8-dark-6: mix($color-dark, $color-primary8, $color-adjustment * 6);
+        $color-primary8-dark-7: mix($color-dark, $color-primary8, $color-adjustment * 7);
+        $color-primary8-dark-8: mix($color-dark, $color-primary8, $color-adjustment * 8);
+        $color-primary8-dark-9: mix($color-dark, $color-primary8, $color-adjustment * 9);
+        $color-primary8-dark-10: mix($color-dark, $color-primary8, $color-adjustment * 10);
+        $color-primary8-dark-11: mix($color-dark, $color-primary8, $color-adjustment * 11);
+        $color-primary8-dark-12: mix($color-dark, $color-primary8, $color-adjustment * 12);

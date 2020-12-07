@@ -1,0 +1,147 @@
+/**
+ * site/text.scss
+ * This file contains base text styles and settings.
+ * Most of these styles are dynamically controlled through the settings/text file. Please make changes there. Minimal updates are needed here.
+**/
+
+// ALL
+#{$text-all} {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //ALL
+
+// HEADINGS
+#{$text-headings} {
+    margin: $heading-text-margin $margin-none;
+    font-family: $heading-text;
+    font-weight: $heading-text-weight;
+    line-height: $heading-text-height;
+    letter-spacing: $heading-text-spacing;
+    color: $heading-text-color;
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //.TEXT-HEADINGS
+
+h1, .h1 {
+    font-size: $heading-text-size + ($heading-text-size-increase * 5.00);
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //H1
+
+h2, .h2 {
+    font-size: $heading-text-size + ($heading-text-size-increase * 4.00);
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //H2
+
+h3, .h3 {
+    font-size: $heading-text-size + ($heading-text-size-increase * 3.00);
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //H3
+
+h4, .h4 {
+    font-size: $heading-text-size + ($heading-text-size-increase * 2.00);
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //H4
+
+h5, .h5 {
+    font-size: $heading-text-size + ($heading-text-size-increase * 1.00);
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //H5
+
+h6, .h6 {
+    font-size: $heading-text-size + ($heading-text-size-increase * 0.00);
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //H6
+
+// BODY
+#{$text-body} {
+    font-family: $body-text;
+    font-size: $body-text-size;
+    font-weight: $body-text-weight;
+    line-height: $body-text-height;
+    letter-spacing: $body-text-spacing;
+    color: $body-text-color;
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //BODY
+
+p, .p {
+    margin: $body-text-margin $margin-none;
+    margin-top: $body-text-margin;
+    margin-bottom: $body-text-margin;
+    margin-left: $margin-none;
+    margin-right: $margin-none;
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //P
+
+li, .li {
+    margin: ($body-text-margin * 0.50) $margin-none;
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //.LI
+
+a, .a {
+    text-decoration: none;
+    color: $link-color;
+    
+    &:hover {
+        text-decoration: none;
+        color: $link-hover-color;
+        cursor: pointer;
+    } //:HOVER
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    &.link {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &-address {
+            color: inherit;
+
+            &:hover {
+                text-decoration: none;
+                color: $link-hover-color;
+                cursor: default;
+            } //:HOVER
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.LINK-ADDRESS
+
+        &-phone {
+            color: inherit;
+            cursor: default;
+
+            &:hover {
+                color: inherit;
+                cursor: default;
+            } //:HOVER
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.LINK-PHONE
+    } //.LINK
+} //A
+
+span, .span {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //SPAN

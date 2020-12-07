@@ -1,0 +1,192 @@
+/**
+ * site/spacing.scss
+ * This file contains global margin and padding styles.
+**/
+
+// MARGIN
+.margin {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    &-none {
+        margin: $margin-none;
+        margin-top: $margin-none;
+        margin-bottom: $margin-none;
+        margin-left: $margin-none;
+        margin-right: $margin-none;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-NONE
+
+    &-xxs {
+        margin: $margin-xxs;
+        margin-top: $margin-xxs;
+        margin-bottom: $margin-xxs;
+        margin-left: $margin-xxs;
+        margin-right: $margin-xxs;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-XXS
+
+    &-xs {
+        margin: $margin-xs;
+        margin-top: $margin-xs;
+        margin-bottom: $margin-xs;
+        margin-left: $margin-xs;
+        margin-right: $margin-xs;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-XS
+
+    &-sm {
+        margin: $margin-sm;
+        margin-top: $margin-sm;
+        margin-bottom: $margin-sm;
+        margin-left: $margin-sm;
+        margin-right: $margin-sm;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-SM
+
+    &-md {
+        margin: $margin-md;
+        margin-top: $margin-md;
+        margin-bottom: $margin-md;
+        margin-left: $margin-md;
+        margin-right: $margin-md;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-MD
+
+    &-lg {
+        margin: $margin-lg;
+        margin-top: $margin-lg;
+        margin-bottom: $margin-lg;
+        margin-left: $margin-lg;
+        margin-right: $margin-lg;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-LG
+
+    &-xl {
+        margin: $margin-xl;
+        margin-top: $margin-xl;
+        margin-bottom: $margin-xl;
+        margin-left: $margin-xl;
+        margin-right: $margin-xl;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-XL
+
+    &-xxl {
+        margin: $margin-xxl;
+        margin-top: $margin-xxl;
+        margin-bottom: $margin-xxl;
+        margin-left: $margin-xxl;
+        margin-right: $margin-xxl;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MARGIN-XXL
+} //.MARGIN
+
+// PADDING
+.padding {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    &-none {
+        padding: $padding-none;
+        padding-top: $padding-none;
+        padding-bottom: $padding-none;
+        padding-left: $padding-none;
+        padding-right: $padding-none;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-NONE
+
+    &-xxs {
+        padding: $padding-xxs;
+        padding-top: $padding-xxs;
+        padding-bottom: $padding-xxs;
+        padding-left: $padding-xxs;
+        padding-right: $padding-xxs;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-XXS
+
+    &-xs {
+        padding: $padding-xs;
+        padding-top: $padding-xs;
+        padding-bottom: $padding-xs;
+        padding-left: $padding-xs;
+        padding-right: $padding-xs;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-XS
+    
+    &-sm {
+        padding: $padding-sm;
+        padding-top: $padding-sm;
+        padding-bottom: $padding-sm;
+        padding-left: $padding-sm;
+        padding-right: $padding-sm;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-SM
+
+    &-md {
+        padding: $padding-md;
+        padding-top: $padding-md;
+        padding-bottom: $padding-md;
+        padding-left: $padding-md;
+        padding-right: $padding-md;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-MD
+
+    &-lg {
+        padding: $padding-lg;
+        padding-top: $padding-lg;
+        padding-bottom: $padding-lg;
+        padding-left: $padding-lg;
+        padding-right: $padding-lg;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-LG
+
+    &-xl {
+        padding: $padding-xl;
+        padding-top: $padding-xl;
+        padding-bottom: $padding-xl;
+        padding-left: $padding-xl;
+        padding-right: $padding-xl;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-XL
+
+    &-xxl {
+        padding: $padding-xxl;
+        padding-top: $padding-xxl;
+        padding-bottom: $padding-xxl;
+        padding-left: $padding-xxl;
+        padding-right: $padding-xxl;
+        
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.PADDING-XXL
+} //.PADDING

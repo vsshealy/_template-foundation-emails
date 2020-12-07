@@ -1,0 +1,189 @@
+/**
+ * site/flexbox.scss
+ * This file contains base Flexbox settings for email clients that support.
+**/
+
+.flexbox {
+    display: flex;
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    &-row {
+        display: flex;
+        flex-direction: row-reverse;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &-reverse {
+            display: flex;
+            flex-direction: row-reverse;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-ROW-REVERSE
+    } //.FLEXBOX-ROW
+
+    &-column {
+        display: flex;
+        flex-direction: column;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &-reverse {
+            display: flex;
+            flex-direction: column-reverse;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.COLUMN-REVERSE
+    } //.FLEXBOX-COLUMN
+
+    &-horizontal {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+        
+        &-left {
+            display: flex;
+            justify-content: flex-start;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-HORIZONTAL-LEFT
+
+        &-right {
+            display: flex;
+            justify-content: flex-end;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-HORIZONTAL-RIGHT
+
+        &-center {
+            display: flex;
+            justify-content: flex-end;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-HORIZONTAL-CENTER
+
+        &-spacebetween {
+            display: flex;
+            justify-content: space-between;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-HORIZONTAL-SPACEBETWEEN
+
+        &-spacearound {
+            display: flex;
+            justify-content: space-around;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-HORIZONTAL-SPACEAROUND
+    } //.FLEXBOX-HORIZONTAL
+
+    &-vertical {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &-top {
+            display: flex;
+            align-items: flex-start;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-VERTICAL-TOP
+
+        &-bottom {
+            display: flex;
+            align-items: flex-end;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-VERTICAL-BOTTOM
+
+        &-center {
+            display: flex;
+            align-items: center;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-VERTICAL-CENTER
+
+        &-baseline {
+            display: flex;
+            align-items: baseline;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-VERTICAL-BASELINE
+
+        &-stretch {
+            display: flex;
+            align-items: stretch;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-VERTICAL-STRETCH
+        
+        &-spacebetween {
+            display: flex;
+            flex-direction: column;
+            align-items: space-between;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-VERTICAL-SPACEBETWEEN
+
+        &-spacearound {
+            display: flex;
+            flex-direction: column;
+            align-items: space-around;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-VERTICAL-SPACEAROUND
+    } //.FLEXBOX-VERTICAL
+
+    &-center {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &-all {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-CENTER-ALL
+    } //.FLEXBOX-CENTER
+
+    &-wrap {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &-none {
+            display: flex;
+            flex-wrap: nowrap;
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-WRAP-NONE
+
+        &-reverse {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FLEXBOX-WRAP-REVERSE
+    } //.FLEXBOX-WRAP
+} //.FLEXBOX

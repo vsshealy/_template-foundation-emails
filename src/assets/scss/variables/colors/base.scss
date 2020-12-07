@@ -1,0 +1,13 @@
+/**
+ * variables/colors/base.scss
+ * This file imports all global project color files.
+**/
+
+// VARIABLES
+    $color-light: #ffffff;
+    $color-dark: #000000;
+    $color-adjustment: (100.00% / 12);
+
+// @IMPORT | COLOR FILES
+    @import "grayscale";
+    @import "black";

@@ -1,0 +1,40 @@
+/**
+ * settings/text.scss
+ * This file defines the settings for all global text elements.
+ * This will dynamically update all other files.
+**/
+
+// @IMPORT | VARIABLES
+    @import "../variables/lists/text";
+    @import "../variables/objects/text";
+
+// FONT STACK SELECTIONS
+    $font-sans: sans-serif;
+    $font-serif: serif;
+
+// FONT BASE
+    $font-base: $font-sans;
+
+// BASE FONT SIZES
+    $font-size-base: 16px;
+    $font-size-phone: 14px;
+    $font-size-tablet: 14px;
+    $font-size-desktop: 16px;
+
+// HEADING TEXT
+    $heading-text: $font-serif;
+    $heading-text-color: $color-grayscale-dark-9;
+    $heading-text-height: $line-height-condensed;
+    $heading-text-size: $font-size-base * 1.00;
+    $heading-text-weight: 400;
+    $heading-text-spacing: $letter-spacing-normal;
+    $heading-text-margin: $margin-sm;
+
+// BODY TEXT
+    $body-text: $font-sans;
+    $body-text-color: $color-grayscale-dark-8;
+    $body-text-height: $line-height-normal;
+    $body-text-size: $font-size-base;
+    $body-text-weight: 400;
+    $body-text-spacing: $letter-spacing-normal;
+    $body-text-margin: $margin-sm;

@@ -1,0 +1,86 @@
+/**
+ * site/foundation.scss
+ * This file styles basic Foundation components.
+**/
+
+// CENTER
+center {
+    min-width: 100.00%;
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //CENTER
+
+// .CONTAINER
+.container {
+    width: 100.00% !important;
+    max-width: $site-width;
+    margin: $margin-none;
+    padding: $padding-none;
+
+    @media #{$media-mobile} {
+        width: $site-width-mobile;
+    } // MOBILE
+
+    @media #{$media-desktop} {
+        width: $site-width-desktop;
+    } // DESKTOP
+
+    &.content {
+        width: 100.00%;
+        max-width: $site-width;
+        margin: $margin-none;
+        padding: $padding-none;
+
+        @media #{$media-mobile} {
+            width: $site-width-mobile;
+        } // MOBILE
+
+        @media #{$media-desktop} {
+            width: $site-width-desktop;
+        } // DESKTOP
+    } //.CONTAINER.CONTENT
+
+    &.body {
+        width: 100.00%;
+        max-width: $site-width;
+        margin: $margin-none;
+        padding: $padding-none;
+
+        @media #{$media-mobile} {
+            width: $site-width-mobile;
+        } // MOBILE
+
+        @media #{$media-desktop} {
+            width: $site-width-desktop;
+        } // DESKTOP
+    } //.CONTAINER.BODY
+} //.CONTAINER
+
+// .ROW
+.row {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    .columns {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &.first {
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.COLUMNS.FIRST
+
+        &.last {
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.COLUMNS.LAST
+
+        &.first.last {
+            width: 100.00%;
+            
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.FIRST.LAST
+    } //.COLUMNS
+} //.ROW

@@ -1,0 +1,16 @@
+/**
+ * variables/lists/text.scss
+ * This file defines text related list variables.
+**/
+
+// HEADINGS
+    $text-headings: "h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6";
+
+// BODY
+    $text-body: "p, li, a, span, .p, .li, .a, .span";
+
+// LINKS
+    $text-links: "a, .a";
+
+// ALL-TEXT
+    $text-all: "#{$text-headings}, #{$text-body}";

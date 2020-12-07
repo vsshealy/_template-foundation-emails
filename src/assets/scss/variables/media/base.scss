@@ -1,0 +1,19 @@
+/**
+ * variables/media/base.scss
+ * This file imports media variable partial files.
+**/
+
+// @IMPORT | MEDIA FILES
+    @import "browsers";
+    @import "devices";
+    @import "displays";
+    @import "email-clients";
+    @import "screens";
+
+// DEFINE | MEDIA QUERIES
+    $media-mobile: "screen and (max-width: #{$site-width-breakpoint})";
+    $media-desktop: "screen and (min-width: #{$site-width-desktop})";
+
+// TEMPLATE | MEDIA QUERIES
+@media #{$media-mobile} {} // MOBILE
+@media #{$media-desktop} {} // DESKTOP

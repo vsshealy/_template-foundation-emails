@@ -1,0 +1,589 @@
+/**
+ * site/backgrounds.scss
+ * This file defines global background colors.
+**/
+
+.background {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    // GRAYSCALE
+    &-grayscale {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        background-color: $color-grayscale;
+            color: mix($color-light, $color-grayscale, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-grayscale, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-grayscale, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+
+            &-light {
+                @media #{$media-mobile} {} // MOBILE
+                @media #{$media-desktop} {} // DESKTOP
+
+                &-12 {
+                    background-color: $color-grayscale-light-12;
+                    color: mix($color-dark, $color-grayscale-light-12, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-12, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-12, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-12
+
+                &-11 {
+                    background-color: $color-grayscale-light-11;
+                    color: mix($color-dark, $color-grayscale-light-11, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-11, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-11, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-11
+
+                &-10 {
+                    background-color: $color-grayscale-light-10;
+                    color: mix($color-dark, $color-grayscale-light-10, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-10, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-10, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-10
+
+                &-9 {
+                    background-color: $color-grayscale-light-9;
+                    color: mix($color-dark, $color-grayscale-light-9, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-9, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-9, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-9
+
+                &-8 {
+                    background-color: $color-grayscale-light-8;
+                    color: mix($color-dark, $color-grayscale-light-8, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-8, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-8, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-8
+
+                &-7 {
+                    background-color: $color-grayscale-light-7;
+                    color: mix($color-dark, $color-grayscale-light-7, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-7, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-7, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-7
+
+                &-6 {
+                    background-color: $color-grayscale-light-6;
+                    color: mix($color-dark, $color-grayscale-light-6, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-6, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-6, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-6
+
+                &-5 {
+                    background-color: $color-grayscale-light-5;
+                    color: mix($color-dark, $color-grayscale-light-5, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-5, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-5, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-5
+
+                &-4 {
+                    background-color: $color-grayscale-light-4;
+                    color: mix($color-dark, $color-grayscale-light-4, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-4, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-4, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-4
+
+                &-3 {
+                    background-color: $color-grayscale-light-3;
+                    color: mix($color-dark, $color-grayscale-light-3, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-3, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-3, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-3
+
+                &-2 {
+                    background-color: $color-grayscale-light-2;
+                    color: mix($color-dark, $color-grayscale-light-2, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-2, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-2, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-2
+
+                &-1 {
+                    background-color: $color-grayscale-light-1;
+                    color: mix($color-dark, $color-grayscale-light-1, $color-adjustment * 9);
+
+                    #{$text-headings} {
+                        color: mix($color-dark, $color-grayscale-light-1, $color-adjustment * 9);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-dark, $color-grayscale-light-1, $color-adjustment * 9);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-1
+            } //.BACKGROUND-GRAYSCALE-LIGHT
+
+            &-dark {
+                @media #{$media-mobile} {} // MOBILE
+                @media #{$media-desktop} {} // DESKTOP
+
+                &-1 {
+                    background-color: $color-grayscale-dark-1;
+                    color: mix($color-light, $color-grayscale-dark-1, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-1, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-1, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-1
+
+                &-2 {
+                    background-color: $color-grayscale-dark-2;
+                    color: mix($color-light, $color-grayscale-dark-2, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-2, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-2, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-2
+
+                &-3 {
+                    background-color: $color-grayscale-dark-3;
+                    color: mix($color-light, $color-grayscale-dark-3, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-3, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-3, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-3
+
+                &-4 {
+                    background-color: $color-grayscale-dark-4;
+                    color: mix($color-light, $color-grayscale-dark-4, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-4, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-4, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-4
+
+                &-5 {
+                    background-color: $color-grayscale-dark-5;
+                    color: mix($color-light, $color-grayscale-dark-5, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-5, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-5, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-5
+
+                &-6 {
+                    background-color: $color-grayscale-dark-6;
+                    color: mix($color-light, $color-grayscale-dark-6, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-6, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-6, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-6
+
+                &-7 {
+                    background-color: $color-grayscale-dark-7;
+                    color: mix($color-light, $color-grayscale-dark-7, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-7, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-7, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-7
+
+                &-8 {
+                    background-color: $color-grayscale-dark-8;
+                    color: mix($color-light, $color-grayscale-dark-8, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-8, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-8, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-LIGHT-8
+
+                &-9 {
+                    background-color: $color-grayscale-dark-9;
+                    color: mix($color-light, $color-grayscale-dark-9, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-9, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-9, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-9
+
+                &-10 {
+                    background-color: $color-grayscale-dark-10;
+                    color: mix($color-light, $color-grayscale-dark-10, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-10, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-10, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-10
+
+                &-11 {
+                    background-color: $color-grayscale-dark-11;
+                    color: mix($color-light, $color-grayscale-dark-11, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-11, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-11, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-11
+
+                &-12 {
+                    background-color: $color-grayscale-dark-12;
+                    color: mix($color-light, $color-grayscale-dark-12, $color-adjustment * 12);
+
+                    #{$text-headings} {
+                        color: mix($color-light, $color-grayscale-dark-12, $color-adjustment * 12);
+                    } //.TEXT-HEADINGS
+
+                    #{$text-body} {
+                        color: mix($color-light, $color-grayscale-dark-12, $color-adjustment * 12);
+                    } //.TEXT-BODY
+
+                    @media #{$media-mobile} {} // MOBILE
+                    @media #{$media-desktop} {} // DESKTOP
+                } //.BACKGROUND-GRAYSCALE-DARK-12
+            } //.BACKGROUND-GRAYSCALE-DARK
+    } //.BACKGROUND-GRAYSCALE
+
+    // BLACK
+    &-black {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        &-rgb {
+            background-color: $color-black-rgb;
+            color: mix($color-light, $color-black-rgb, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-rgb, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-rgb, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-RGB
+
+        &-rich {
+            background-color: $color-black-rich;
+            color: mix($color-light, $color-black-rich, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-rich, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-rich, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-RICH
+
+        &-neutralrich {
+            background-color: $color-black-neutralrich;
+            color: mix($color-light, $color-black-neutralrich, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-neutralrich, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-neutralrich, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-NEUTRALRICH
+
+        &-pantone {
+            background-color: $color-black-pantone;
+            color: mix($color-light, $color-black-pantone, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-pantone, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-pantone, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-PANTONE
+
+        &-registration {
+            background-color: $color-black-registration;
+            color: mix($color-light, $color-black-registration, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-registration, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-registration, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-REGISTRATION
+
+        &-designer {
+            background-color: $color-black-designer;
+            color: mix($color-light, $color-black-designer, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-designer, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-designer, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-DESIGNER
+
+        &-photoshop {
+            background-color: $color-black-photoshop;
+            color: mix($color-light, $color-black-photoshop, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-photoshop, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-photoshop, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-PHOTOSHOP
+
+        &-cool {
+            background-color: $color-black-cool;
+            color: mix($color-light, $color-black-cool, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-cool, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-cool, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-COOL
+
+        &-warm {
+            background-color: $color-black-warm;
+            color: mix($color-light, $color-black-warm, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-warm, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-warm, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-WARM
+
+        &-golden {
+            background-color: $color-black-golden;
+            color: mix($color-light, $color-black-golden, $color-adjustment * 12);
+
+            #{$text-headings} {
+                color: mix($color-light, $color-black-golden, $color-adjustment * 12);
+            } //.TEXT-HEADINGS
+
+            #{$text-body} {
+                color: mix($color-light, $color-black-golden, $color-adjustment * 12);
+            } //.TEXT-BODY
+
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //.BACKGROUND-BLACK-GOLDEN
+    } //.BACKGROUND-BLACK
+} //.BACKGROUND

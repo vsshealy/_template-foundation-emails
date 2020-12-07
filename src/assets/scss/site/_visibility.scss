@@ -1,0 +1,38 @@
+/**
+ * site/visibility.scss
+ * This file contains styles to show and hide elements based on media queries.
+**/
+
+// .MOBILE
+.mobile {
+    &-hide {        
+        @media #{$media-mobile} {
+            display: none !important;
+        } // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MOBILE-HIDE
+
+    &-show {
+        @media #{$media-mobile} {
+            display: block;
+        } // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+    } //.MOBILE-SHOW
+} //.MOBILE
+
+// .DESKTOP
+.desktop {
+    &-hide {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {
+            display: none !important;
+        } // DESKTOP
+    } //.DESKTOP-HIDE
+
+    &-show {
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {
+            display: block;
+        } // DESKTOP
+    } //.DESKTOP-SHOW
+} //.DESKTOP

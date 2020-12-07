@@ -1,0 +1,42 @@
+/**
+ * site/page.scss
+ * This file contains base page styles and settings.
+**/
+
+* {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //*
+
+html {
+    height: 100.00%;
+    width: 100.00%;
+    font-family: $font-base;
+    font-size: $font-size-base;
+    line-height: $body-text-height;
+
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+} //HTML
+
+body {
+    height: 100.00%;
+    width: 100.00%;
+    margin: $margin-none;
+    padding: $padding-none;
+    font-family: $font-base;
+    font-size: $font-size-base;
+    line-height: $body-text-height;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $body-text-color;
+
+    @media #{$media-mobile} {
+        font-size: $font-size-phone;
+    } // MOBILE
+
+    @media #{$media-desktop} {
+        font-size: $font-size-desktop;
+    } // DESKTOP
+} //BODY

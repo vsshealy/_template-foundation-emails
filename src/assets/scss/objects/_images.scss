@@ -1,0 +1,32 @@
+/**
+ * objects/images.scss
+ * This file contains base image styles.
+**/
+
+.image {
+    @media #{$media-mobile} {} // MOBILE
+    @media #{$media-desktop} {} // DESKTOP
+
+    &-responsive {
+        height: 0px;
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+
+        @media #{$media-mobile} {} // MOBILE
+        @media #{$media-desktop} {} // DESKTOP
+
+        img {
+            height: 100.00%;
+            width: 100.00%;
+            position: absolute;
+            top: 0.00%;
+            left: 0.00%;
+            
+            @media #{$media-mobile} {} // MOBILE
+            @media #{$media-desktop} {} // DESKTOP
+        } //IMG
+    } //.IMAGE-RESPONSIVE
+
+} //.IMAGE
